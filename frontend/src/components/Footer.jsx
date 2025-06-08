@@ -121,7 +121,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white pt-16 pb-8">
+    <footer className="relative overflow-hidden bg-[#003f5c] text-white pt-16 pb-8">
       {/* Animated wave background */}
       <div className="absolute inset-0 opacity-10 overflow-hidden">
         <motion.div className="absolute top-0 left-0 w-[2000px] h-full" variants={waveVariants} animate="animate">
@@ -300,7 +300,7 @@ export default function Footer() {
                     />
                     <motion.button
                       type="submit"
-                      className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-purple-600 hover:to-blue-500 px-4 py-2 rounded-r-lg transition-all duration-200"
+                      className="bg-[#003f5c] hover:from-purple-600 hover:to-blue-500 px-4 py-2 rounded-r-lg transition-all duration-200"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
@@ -321,9 +321,9 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-2xl font-bold mb-4">Ready to work together?</h3>
+          {/* <h3 className="text-2xl font-bold mb-4">Ready to work together?</h3> */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <motion.a
+            {/* <motion.a
               href="/contact"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-purple-600 hover:to-blue-500 px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center justify-center"
               whileHover={{ scale: 1.05 }}
@@ -331,8 +331,8 @@ export default function Footer() {
             >
               <Mail className="mr-2 h-5 w-5" />
               Let's Talk
-            </motion.a>
-            <motion.a
+            </motion.a> */}
+            {/* <motion.a
               href="/cv.pdf"
               download
               className="border border-white/30 hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center justify-center"
@@ -341,7 +341,7 @@ export default function Footer() {
             >
               <Download className="mr-2 h-5 w-5" />
               Download CV
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
 
