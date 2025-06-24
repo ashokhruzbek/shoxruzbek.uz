@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/profile.jpg";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="https://cal.com/ashokhruzbek/30min"
             target="_blank"
             aria-label="BOOK A CALL"
           >
@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/ashokhruzbek"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -46,7 +46,19 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://t.me/ashokhruzbek"
+            target="_blank"
+            aria-label="View Telegram Profile"
+          >
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              TG
+            </motion.p>
+          </Link>
+          <Link
+            href="https://linkedin.com/in/shokhruzbek"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,11 +66,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              In
             </motion.p>
           </Link>
-          <Link
-            href="https://twitter.com/victorwill__"
+          {/* <Link
+            href="https://x.com/ashakhruzbek"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -68,17 +80,17 @@ const Hero = () => {
             >
               TW
             </motion.p>
-          </Link>
+          </Link> */}
           <Link
-            href="https://contra.com/victorwilliams"
+            href="https://instagram.com/a.shokhruzbek"
             target="_blank"
-            aria-label="View Contra Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              IG
             </motion.p>
           </Link>
         </div>
