@@ -114,7 +114,7 @@ const Hero = () => {
               alt="Shoxruzbek's headshot"
               data-blobity-tooltip="Shoxruzbek Abduraxmonov"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className=" mb-[-115px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:mb-[-115px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>
