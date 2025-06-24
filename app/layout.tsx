@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "Shoxruzbek Abduraxmonov — Full Stack Developer",
     description:
       "Full Stack Developer, currently at Uzbekistan. Focused on interfaces and experiences, working remotely from Khorezm, Uzbekistan.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "https://www.shoxruzbek.uz/",
+    siteName: "www.shoxruzbek.uz",
     images: [
       {
         url: "",
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     title: "Shoxruzbek Abduraxmonov — Full Stack Developer",
     description:
       "Full Stack Developer, currently at Uzbekistan. Focused on interfaces and experiences, working remotely from Khorezm, Uzbekistan.",
-    creator: "victorwill__",
+    creator: "ashakhruzbek",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "#",
     ],
   },
   robots: {

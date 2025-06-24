@@ -16,7 +16,7 @@ export const devProjects = [
     description:
       "Portfolio website for Michael Odunsi, an experienced UI/UX designer crafting unique, user-friendly products and web experiences for Web3 founders and projects.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/odunsi-web3-folio",
+    github: "https://github.com/ashokhruzbek/",
     demo: "https://www.odunsi.xyz/",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
@@ -27,7 +27,7 @@ export const devProjects = [
     description:
       "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/interlock",
+    github: "https://github.com/ashokhruzbek/",
     demo: "https://interlock-teal.vercel.app/",
     image: require(".//../../public/projects/interlock.png"),
     available: true,
@@ -38,7 +38,7 @@ export const devProjects = [
     description:
       "Built specifically for an AI startup, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
     technologies: ["React", "Next.js", "Prismic CMS"],
-    github: "https://github.com/victorcodess/synthetix",
+    github: "https://github.com/ashokhruzbek/",
     demo: "https://synthetix-iota.vercel.app/",
     image: require(".//../../public/projects/synthetix-flip.png"),
     available: true,
@@ -49,7 +49,7 @@ export const devProjects = [
     description:
       "A website built for a software startup and small business, to showcase their services and mark their online presence.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/propellent",
+    github: "https://github.com/ashokhruzbek/",
     demo: "https://propellent.vercel.app/",
     image: require(".//../../public/projects/propellent-new.png"),
     available: true,
@@ -60,8 +60,8 @@ export const devProjects = [
     description:
       "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
     technologies: ["Next.js", "Typescript", "Prisma"],
-    github: "https://github.com/victorcodess/flixify",
-    demo: "https://flixify.victorwilliams.me/",
+    github: "https://github.com/ashokhruzbek/",
+    demo: "#",
     image: require(".//../../public/projects/flixify.png"),
     available: true,
   },
