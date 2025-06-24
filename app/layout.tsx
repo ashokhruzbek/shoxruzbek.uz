@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.victorwilliams.me",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "",
         width: 1200,
         height: 630,
         alt: "Shoxruzbek Abduraxmonov — Full Stack Developer",
