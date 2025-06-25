@@ -41,7 +41,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Manchester United, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap."
+                "Outside of coding, I enjoy detective films, spending time with friends, and cheering for Real Madrid. I find motivation in Ronaldo's journey and often relax by listening to Russian music, mostly through Spotify."
               }
             />
             <AnimatedBody
@@ -63,7 +63,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Prismic CMS, Redux, Redux Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Formik."
+                  "HTML, JavaScript, React, Next.js, TypeScript, Redux, Redux Toolkit, Git/GitHub."
                 }
               />
             </div>
