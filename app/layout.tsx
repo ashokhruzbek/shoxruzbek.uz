@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "creative developer",
     "creative engineer",
     "tech",
-    "nigeria",
+    "uzbekistan",
     "software",
     "software developer",
     "portfolio",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.shoxruzbek.uz",
     images: [
       {
-        url: "",
+        url: "https://styles.redditmedia.com/t5_37s728/styles/communityIcon_eeiwgi2sufr51.jpg?format=pjpg&s=85644868011b796134011bfd8ecc5f88800a1a87",
         width: 1200,
         height: 630,
         alt: "Shoxruzbek Abduraxmonov — Full Stack Developer",

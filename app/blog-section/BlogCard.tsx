@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import "../globals.css";
 
 const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
+  
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -36,7 +37,7 @@ const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
           />
         </div>
 
-        <h3 className="mt-3 break-all uppercase leading-[1em] tracking-tight line-clamp-2">
+        <h3 className="mt-3 break-all uppercase leading-[1em] tracking-tight line-clamp-2 text-white ">
           {title}
         </h3>
       </div>
