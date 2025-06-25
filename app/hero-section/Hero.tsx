@@ -5,6 +5,13 @@ import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
 import profile from "../../public/profile.jpg";
+import {
+  FaGithub,
+  FaTelegramPlane,
+  FaInstagram,
+  FaLinkedin,
+  FaInstagramSquare,
+} from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -38,60 +45,39 @@ const Hero = () => {
             target="_blank"
             aria-label="View GitHub Profile"
           >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              GH
-            </motion.p>
+            <motion.div className="text-[22px]" variants={bodyAnimation}>
+              <FaGithub />
+            </motion.div>
           </Link>
+
           <Link
             href="https://t.me/ashokhruzbek"
             target="_blank"
             aria-label="View Telegram Profile"
           >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              TG
-            </motion.p>
+            <motion.div className="text-[22px]" variants={bodyAnimation}>
+              <FaTelegramPlane />
+            </motion.div>
           </Link>
+
           <Link
             href="https://linkedin.com/in/shokhruzbek"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              In
-            </motion.p>
+            <motion.div className="text-[22px]" variants={bodyAnimation}>
+              <FaLinkedin />
+            </motion.div>
           </Link>
-          {/* <Link
-            href="https://x.com/ashakhruzbek"
-            target="_blank"
-            aria-label="View Twitter Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              TW
-            </motion.p>
-          </Link> */}
+
           <Link
             href="https://instagram.com/a.shokhruzbek"
             target="_blank"
             aria-label="View Instagram Profile"
           >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              IG
-            </motion.p>
+            <motion.div className="text-[22px]" variants={bodyAnimation}>
+              <FaInstagram />
+            </motion.div>
           </Link>
         </div>
       </div>
@@ -114,7 +100,7 @@ const Hero = () => {
               alt="Shoxruzbek's headshot"
               data-blobity-tooltip="Shoxruzbek Abduraxmonov"
               data-blobity-invert="false"
-              className=" mb-[-115px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:mb-[-115px] md:rounded-[32px] lg:w-[245px]"
+              className=" mb-[-115px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:mb-[-115px] md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>

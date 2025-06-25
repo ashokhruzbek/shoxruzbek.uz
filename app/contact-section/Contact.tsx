@@ -7,6 +7,7 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
 import heartIcon from "../../public/heart icon.png";
+import { FaGithub, FaLinkedin, FaTelegramPlane, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -74,78 +75,38 @@ const Contact = () => {
               </Link>
             </div>
           </div>
-
-          <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+          <div className="flex gap-10 text-[#e4ded7] sm:gap-14 md:gap-10 lg:gap-20">
             <Link
               href="https://github.com/ashokhruzbek"
               target="_blank"
               aria-label="View GitHub Profile"
             >
-              <AnimatedTitle
-                text={"GH"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
+              <FaGithub className="text-[24px] transition duration-200 hover:text-white sm:text-[28px] md:text-[24px] lg:text-[32px]" />
             </Link>
+
             <Link
               href="https://www.linkedin.com/in/shokhrubek/"
               target="_blank"
               aria-label="View LinkedIn Profile"
             >
-              <AnimatedTitle
-                text={"LN"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
+              <FaLinkedin className="text-[24px] transition duration-200 hover:text-white sm:text-[28px] md:text-[24px] lg:text-[32px]" />
             </Link>
+
             <Link
               href="https://x.com/ashakhruzbek"
               target="_blank"
               aria-label="View Twitter Profile"
             >
-              <AnimatedTitle
-                text={"TW"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
+              <FaTelegramPlane className="text-[24px] transition duration-200 hover:text-white sm:text-[28px] md:text-[24px] lg:text-[32px]" />
             </Link>
+
             <Link
               href="https://www.instagram.com/a.shokhruzbek/"
               target="_blank"
               aria-label="View Instagram Profile"
             >
-              <AnimatedTitle
-                text={"IG"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
+              <FaInstagram className="text-[24px] transition duration-200 hover:text-white sm:text-[28px] md:text-[24px] lg:text-[32px]" />
             </Link>
-            {/* <Link
-              href="https://blog.victorwilliams.me/"
-              target="_blank"
-              aria-label="View Hashnode Profile"
-            >
-              <AnimatedTitle
-                text={"HN"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link> */}
           </div>
         </div>
       </div>
