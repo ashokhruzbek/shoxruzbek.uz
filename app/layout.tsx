@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Shoxruzbek Abduraxmonov — Frontend Engineer",
+  title: "Shoxruzbek Abduraxmonov — Full Stack Developer",
   description:
     "Full Stack Developer, currently at Uzbekistan. Focused on interfaces and experiences, working remotely from Khorezm, Uzbekistan.",
   generator: "Next.js",
