@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer, currently at Uzbekistan. Focused on interfaces and experiences, working remotely from Khorezm, Uzbekistan.",
     url: "https://www.shoxruzbek.uz/",
-    siteName: "www.shoxruzbek.uz",
+    siteName: "shoxruzbek.uz",
     images: [
       {
         url: "https://styles.redditmedia.com/t5_37s728/styles/communityIcon_eeiwgi2sufr51.jpg?format=pjpg&s=85644868011b796134011bfd8ecc5f88800a1a87",
