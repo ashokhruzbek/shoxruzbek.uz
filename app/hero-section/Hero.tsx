@@ -11,6 +11,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaInstagramSquare,
+  FaCode,
 } from "react-icons/fa";
 
 const Hero = () => {
