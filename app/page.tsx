@@ -46,7 +46,7 @@ export default function Home() {
         <About />
         <Blog />
         <Contact />
-        <Footer />
+        <Footer />        
       </main>
       {/* </ScrollerMotion> */}
     </>

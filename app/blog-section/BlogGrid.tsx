@@ -29,6 +29,7 @@ const Blog = () => {
               image={blog.image}
               url={blog.url}
               date={blog.date}
+              slug={blog.slug}
               available={blog.available}
               index={index}
             />

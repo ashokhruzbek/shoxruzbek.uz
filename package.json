@@ -25,12 +25,15 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-intersection-observer": "^9.4.3",
+    "react-toastify": "^11.0.5",
     "resize-observer-polyfill": "^1.5.1",
     "scroller-motion": "^1.2.3",
     "sharp": "^0.32.0",
-    "touch-cli": "^0.0.1"
+    "touch-cli": "^0.0.1",
+    "typography": "^0.16.24"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",

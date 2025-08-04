@@ -9,9 +9,9 @@ exports.createProject = async (req, res) => {
       return res.status(400).json({ message: "Title va description to‘ldirilishi shart" });
     }
 
-    if (!req.files || req.files.length === 0) {
-      return res.status(400).json({ message: "Kamida bitta rasm yuklang" });
-    }
+    // if (!req.files || req.files.length === 0) {
+    //   return res.status(400).json({ message: "Kamida bitta rasm yuklang" });
+    // }
 
     const projectResult = await pool.query(
       `INSERT INTO projects (title, description, technology, github_link, live_demo_link)

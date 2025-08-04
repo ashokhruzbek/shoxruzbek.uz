@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import "../globals.css";
 
-const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
+const BlogCard = ({ title, image, url, date, slug, available, index }: blogProps) => {
   
   return (
     <motion.div
@@ -48,8 +48,7 @@ const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
             {" "}
             <p>{date}</p>{" "}
             <Link
-              href={url}
-              target="_blank"
+              href={`/blog/${slug}`}
               className="rounded-full"
               aria-label="Open Blog Post"
             >
