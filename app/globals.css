@@ -37,3 +37,28 @@ body {
 body {
   overflow-y: hidden;
 }
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0E1016;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212531;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2f3d;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #212531 #0E1016;
+}

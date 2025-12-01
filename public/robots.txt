@@ -1,0 +1,22 @@
+# Robots.txt for shoxruzbek.uz
+# https://www.shoxruzbek.uz
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.shoxruzbek.uz/sitemap.xml
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
